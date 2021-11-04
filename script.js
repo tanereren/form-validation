@@ -52,7 +52,7 @@ function checkInputs(){
     failureIcon[2].style.opacity = "1"
     successIcon[2].style.opacity = "0"
   } else if (!isPassword(passwordValue)){
-    errorMsg[2].innerHTML = "Password must contain at least one uppercase and 6 characters in total"
+    errorMsg[2].innerHTML = "Password must contain 6 characters in total with one uppercase and one lowercase character"
     failureIcon[2].style.opacity = "1"
     successIcon[2].style.opacity = "0"
   } else{
